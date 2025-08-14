@@ -226,6 +226,12 @@ function showLove() {
     `;
   document.head.appendChild(style);
 
+  // Scroll to top to ensure overlay is visible
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+
   // Show overlay with animation
   overlay.classList.add("show");
 

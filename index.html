@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry, My Love ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Floating Hearts Background -->
+        <div class="hearts-container">
+            <div class="heart heart-1"></div>
+            <div class="heart heart-2"></div>
+            <div class="heart heart-3"></div>
+            <div class="heart heart-4"></div>
+            <div class="heart heart-5"></div>
+            <div class="heart heart-6"></div>
+            <div class="heart heart-7"></div>
+            <div class="heart heart-8"></div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <div class="header">
+                <h1 class="title">
+                    <span class="heart-icon">❤️</span>
+                    I'm Sorry, My Love
+                    <span class="heart-icon">❤️</span>
+                </h1>
+                <p class="subtitle">Please give me one more chance...</p>
+            </div>
+
+            <div class="message-section">
+                <div class="message-card">
+                    <h2>My Dearest...</h2>
+                    <p class="apology-text">
+                        I know I've hurt you so many times, and I'm truly sorry for all the pain I've caused you.
+                        You deserve so much better than what I've given you, and I promise I'm still the same person
+                        you fell in love with. I haven't changed - I'm still that guy who loves you with all his heart.
+                    </p>
+                    <p class="apology-text">
+                        I'm really sorry for all the stress I've put you through. You've been through so much because of
+                        me,
+                        and I can't express how much I regret causing you any pain. This is my (n+1)th time asking for
+                        your forgiveness,
+                        and I swear this time will be different.
+                    </p>
+                    <p class="apology-text">
+                        Please give me one last chance. I promise to be better, to love you more, to cherish you more,
+                        and to never take you for granted again. You mean everything to me, and I can't imagine my life
+                        without you.
+                    </p>
+                </div>
+            </div>
+
+            <div class="video-section">
+                <h3>Trust me, I am still this guy, I haven't changed...</h3>
+                <div class="video-container">
+                    <video id="apologyVideo" controls preload="metadata">
+                        <source src="MOTAAA.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <div class="promise-section">
+                <div class="promise-card">
+                    <h3>My Promises to You</h3>
+                    <div class="promises">
+                        <div class="promise-item">
+                            <i class="fas fa-heart"></i>
+                            <span>I will love you more each day</span>
+                        </div>
+                        <div class="promise-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>I will protect your heart</span>
+                        </div>
+                        <div class="promise-item">
+                            <i class="fas fa-hand-holding-heart"></i>
+                            <span>I will cherish every moment with you</span>
+                        </div>
+                        <div class="promise-item">
+                            <i class="fas fa-star"></i>
+                            <span>I will make you feel special always</span>
+                        </div>
+                        <div class="promise-item">
+                            <i class="fas fa-infinity"></i>
+                            <span>I will never give up on us</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="final-message">
+                <div class="final-card">
+                    <h2>Please Forgive Me</h2>
+                    <p>I love you more than words can express. You are my everything, my soulmate, my best friend.
+                        I promise to spend the rest of my life making you happy and showing you how much you mean to me.
+                    </p>
+                    <div class="love-buttons">
+                        <button class="love-btn yes-btn" onclick="showLove()">
+                            <i class="fas fa-heart"></i> Yes, I forgive you
+                        </button>
+                        <button class="love-btn maybe-btn" onclick="showLove()">
+                            <i class="fas fa-heart"></i> Maybe...
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Love Animation Overlay -->
+        <div id="loveOverlay" class="love-overlay">
+            <div class="love-message">
+                <h2>Thank You! ❤️</h2>
+                <p>I promise to make you the happiest person in the world!</p>
+
+                <!-- Picture Collage -->
+                <div class="picture-collage">
+                    <div class="collage-row">
+                        <div class="collage-item">
+                            <img src="ast1.jpg" alt="Us together" loading="lazy">
+                        </div>
+                        <div class="collage-item">
+                            <img src="ast2.jpg" alt="Us together" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="collage-row">
+                        <div class="collage-item">
+                            <img src="ast3.jpg" alt="Us together" loading="lazy">
+                        </div>
+                        <div class="collage-item">
+                            <img src="ast5.jpg" alt="Us together" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="special-message">
+                    <p class="message-line">I'll really work on myself to be the partner you desire and truly deserve
+                    </p>
+                    <p class="message-line">I really want to marry you one day, MOTA</p>
+                </div>
+
+                <div class="love-hearts">
+                    <span>❤️</span>
+                    <span>💕</span>
+                    <span>💖</span>
+                    <span>💗</span>
+                    <span>💝</span>
+                </div>
+
+                <button class="huh-btn" onclick="hideLove()">
+                    <i class="fas fa-arrow-left"></i> Huh!
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

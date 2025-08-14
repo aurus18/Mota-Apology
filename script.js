@@ -35,6 +35,8 @@ function createFloatingHearts() {
     heart.style.left = Math.random() * 100 + "%";
     heart.style.animationDelay = Math.random() * 8 + "s";
     heart.style.animationDuration = Math.random() * 3 + 4 + "s";
+    heart.style.transform = "rotate(45deg) translateY(100vh)";
+    heart.style.opacity = "0";
     heartsContainer.appendChild(heart);
   }
 }
